@@ -30,7 +30,7 @@ Features:
  USAGE STATEMENT
     $ ./utf --help 
     ./utf [-h|--help] [-v|-vv] -u OUT_ENC | --UTF=OUT_ENC IN_FILE [OUT_FILE]
-    
+   
     Option arguments: 
       -h, --help Displays this usage. 
       -v, -vv Toggles the verbosity of the program to level 1 or 2.
