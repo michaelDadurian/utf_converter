@@ -15,11 +15,11 @@ Features:
   
   Verbose output:
   -Level 1 verbosity:
-    -The size of the input file
-    -The absolute path of the input file
-    -Input encoding
-    -Output encoding
-    -Name of host machine and its operating system
+    The size of the input file.
+    The absolute path of the input file.
+    Input encoding.
+    Output encoding.
+    Name of host machine and its operating system.
   -Level 2 verbosity:
     -The time the program takes to read, convert and write to the output file.
     -Percentage of output in ASCII range
