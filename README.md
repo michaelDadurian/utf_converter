@@ -6,9 +6,11 @@ Features:
   Converts UTF-16 encoded text from UTF-16LE to UTF-16BE and vice-versa as well as UTF-8 encoded text to UTF-16LE or UTF-16BE.
 
   Portability:
-  The program runs on Ubuntu as well as Sparky, a Unix based system provided by Stony Brook University that runs SunOS sparc. Sparky is a    big endian system while the Linux VM used to develop the software is a little endian system. 
+  
+  -The program runs on Ubuntu as well as Sparky, a Unix based system provided by Stony Brook University that runs SunOS sparc. Sparky is a    big endian system while the Linux VM used to develop the software is a little endian system. 
   
   Output Redirection via positional argument:
+  
    Converted text is outputed to another file, not just stdout.
   
   
