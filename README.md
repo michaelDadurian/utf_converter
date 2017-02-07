@@ -21,7 +21,7 @@ Command line program written in C program designed to convert UTF-16 encoded tex
   -Level 2 verbosity displays the time the program takes to read, convert, and write to the output file. It also displays the percentage of ASCII characters, the percentage of surrogate pairs, as well as how many glyphs were created during the transcoding.
     
     
- ## USAGE STATEMENT
+ USAGE STATEMENT
  
     $ ./utf --help 
     
