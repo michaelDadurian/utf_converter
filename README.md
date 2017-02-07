@@ -1,7 +1,7 @@
 Command line program written in C program designed to convert UTF-16 encoded text from UTF-16LE to UTF-16BE, and vice-versa. Uses the surrogate pair algorithm to extract UTF-8 code points. The program reads the input file one byte at a time, but the conversion occurs one glyph at a time. A glyph is a struct that holds the multi-byte encoding of each character. The conversion occurs by swapping the bytes within a glyph.
 
 
-Features:
+## Features:
 
   Converts UTF-16 encoded text from UTF-16LE to UTF-16BE and vice-versa as well as UTF-8 encoded text to UTF-16LE or UTF-16BE.
 
@@ -21,7 +21,7 @@ Features:
   -Level 2 verbosity displays the time the program takes to read, convert, and write to the output file. It also displays the percentage of ASCII characters, the percentage of surrogate pairs, as well as how many glyphs were created during the transcoding.
     
     
- USAGE STATEMENT
+ ## USAGE STATEMENT
  
     $ ./utf --help 
     
