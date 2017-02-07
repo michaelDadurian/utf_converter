@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-Michael Dadurian
-108163861
-=======
-Command line C program designed to convert UTF-16 encoded text from UTF-16LE to UTF-16BE, and vice-versa. Uses the surrogate pair algorithm to extract UTF-8 code points. The program reads the input file one byte at a time, but the conversion occurs one glyph at a time. A glyph is a struct that holds the multi-byte encoding of each character. The conversion occurs by swapping the bytes within a glyph.
+Command line program written in C program designed to convert UTF-16 encoded text from UTF-16LE to UTF-16BE, and vice-versa. Uses the surrogate pair algorithm to extract UTF-8 code points. The program reads the input file one byte at a time, but the conversion occurs one glyph at a time. A glyph is a struct that holds the multi-byte encoding of each character. The conversion occurs by swapping the bytes within a glyph.
 
 
 Features:
@@ -43,4 +39,4 @@ Features:
     
     Positional Arguments: IN_FILE The ﬁle to convert.
                           [OUT_FILE] Output ﬁle name. If not present, defaults to stdout. 
->>>>>>> 8158d701e09526b043de6f94805a877d65ef49c8
+
