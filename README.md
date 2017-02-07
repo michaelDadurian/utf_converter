@@ -3,28 +3,20 @@ Command line program written in C program designed to convert UTF-16 encoded tex
 
 Features:
 
-  -Converts UTF-16 encoded text from UTF-16LE to UTF-16BE and vice-versa.
-  -Converts UTF-8 encoded text to UTF-16LE or UTF-16BE.
+  Converts UTF-16 encoded text from UTF-16LE to UTF-16BE and vice-versa as well as UTF-8 encoded text to UTF-16LE or UTF-16BE.
 
   Portability:
-  -The program runs on Ubuntu as well as Sparky, a Unix based system provided by Stony Brook University that runs SunOS sparc. Sparky is a    big endian system while the Linux VM used to develop the software is a little endian system. 
+  The program runs on Ubuntu as well as Sparky, a Unix based system provided by Stony Brook University that runs SunOS sparc. Sparky is a    big endian system while the Linux VM used to develop the software is a little endian system. 
   
   Output Redirection via positional argument:
-   -Converted text is outputed to another file, not just stdout.
-   Example usage: ./utf -u input.txt > output.txt
+   Converted text is outputed to another file, not just stdout.
+   
   
   Verbose output:
-  -Level 1 verbosity:
-    The size of the input file.
-    The absolute path of the input file.
-    Input encoding.
-    Output encoding.
-    Name of host machine and its operating system.
-  -Level 2 verbosity:
-    -The time the program takes to read, convert and write to the output file.
-    -Percentage of output in ASCII range
-    -Percentage of output that is a surrogate pair
-    -How many glyphs were created during the transcoding.
+  
+  -Level 1 verbosity displays the size of the input file, the absolute path of the input file, the input encoding, the output encoding,   and the name of the host machine and its operating system.
+    
+  -Level 2 verbosity displays the time the program takes to read, convert, and write to the output file. It also displays the percentage of ASCII characters, the percentage of surrogate pairs, as well as how many glyphs were created during the transcoding.
     
     
  USAGE STATEMENT
