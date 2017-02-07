@@ -599,7 +599,10 @@ void print_verbose(){
 	float asciiPercent, surPercent = 0;
 	float fileSize = 0;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8158d701e09526b043de6f94805a877d65ef49c8
 	struct stat st;
 	stat(filename, &st);
 	size = st.st_size;
@@ -678,7 +681,11 @@ void start_clock(){
 	st_time = times(&st_cpu);
 }
 
+<<<<<<< HEAD
 float *end_clock(){
+=======
+float* end_clock(){
+>>>>>>> 8158d701e09526b043de6f94805a877d65ef49c8
 
 	en_time = times(&en_cpu);
 
