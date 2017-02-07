@@ -20,7 +20,9 @@ Features:
     
     
  USAGE STATEMENT
+ 
     $ ./utf --help 
+    
     ./utf [-h|--help] [-v|-vv] -u OUT_ENC | --UTF=OUT_ENC IN_FILE [OUT_FILE]
    
     Option arguments: 
